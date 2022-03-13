@@ -66,7 +66,7 @@ depth = 62.5963
 material = SubResource( 6 )
 
 [node name="Character" parent="." instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.143824, 1.92932, 12.2575 )
+transform = Transform( -0.998236, 0, 0.059376, 0, 1, 0, -0.059376, 0, -0.998236, 0.143824, 1.92932, 12.2575 )
 area_radius = 7.0
 
 [node name="StaticBody" parent="." instance=ExtResource( 3 )]

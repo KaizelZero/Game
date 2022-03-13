@@ -37,10 +37,14 @@ func unpause(timeline_name):
 func _on_Character_body_entered(body):
 	if body.name == 'Player':
 		mat.set_texture(SpatialMaterial.TEXTURE_ALBEDO, front)
+		# see BillboardMode under SpatialMaterial for enum count
+		mat.params_billboard_mode = 2
 		active = true
 
 
 func _on_Character_body_exited(body):
 	if body.name == 'Player':
 		mat.set_texture(SpatialMaterial.TEXTURE_ALBEDO, back)
+		# see BillboardMode under SpatialMaterial for enum count
+		mat.params_billboard_mode = 0
 		active = false
