@@ -4,12 +4,14 @@ extends Area
 # var a = 2
 # var b = "text"
 var active = false
-var mat : Material 
-onready var front = preload("res://Character/def_00.png")
-onready var back = preload("res://Character/def_02.png")
+onready var mat : Material = $Sprite.get_mesh().get("material")
+export var front = preload("res://Character/def_00.png")
+export var back = preload("res://Character/def_02.png")
+export var area_radius = 3.18
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	$Sprite.get_mesh().get("material").set_texture(SpatialMaterial.TEXTURE_ALBEDO, back)
+	mat.set_texture(SpatialMaterial.TEXTURE_ALBEDO, back)
+	$CollisionShape.get_shape().radius = area_radius
 	pass
 
 
@@ -26,17 +28,18 @@ func _input(event):
 			dialog.connect('timeline_end', self, 'unpause')
 			add_child(dialog)
 
+# warning-ignore:unused_argument
 func unpause(timeline_name):
 	get_tree().paused = false
 
 
 func _on_Character_body_entered(body):
 	if body.name == 'Player':
-		$Sprite.get_mesh().get("material").set_texture(SpatialMaterial.TEXTURE_ALBEDO, front)
+		mat.set_texture(SpatialMaterial.TEXTURE_ALBEDO, front)
 		active = true
 
 
 func _on_Character_body_exited(body):
 	if body.name == 'Player':
-		$Sprite.get_mesh().get("material").set_texture(SpatialMaterial.TEXTURE_ALBEDO, back)
+		mat.set_texture(SpatialMaterial.TEXTURE_ALBEDO, back)
 		active = false

@@ -1,0 +1,38 @@
+# Made using Asset Forge (2.2.0)
+
+:materials
+
+[name:woodLight;color:RGBA(0.816, 0.580, 0.420, 1.000);scale:(1.0, 1.0);shader:Default;valueA:0.35;valueB:0;]
+[name:wood;color:RGBA(0.840, 0.435, 0.305, 1.000);scale:(1.0, 1.0);shader:Default;valueA:0.35;valueB:0;]
+[name:_defaultMat;color:RGBA(0.939, 0.953, 1.000, 1.000);scale:(1.0, 1.0);shader:Default;valueA:0.35;valueB:0.25;]
+[name:custom3;color:RGBA(0.000, 0.000, 0.000, 0.000);scale:(1.0, 1.0);shader:Default;valueA:0.5;valueB:0.15;]
+[name:bricks;color:RGBA(1.000, 0.392, 0.306, 1.000);scale:(1.0, 1.0);shader:Default;valueA:0.35;valueB:0;]
+[name:foliage;color:RGBA(0.000, 0.655, 0.486, 1.000);scale:(1.0, 1.0);shader:Default;valueA:0.35;valueB:0;]
+[name:metal;color:RGBA(0.580, 0.569, 0.769, 1.000);scale:(1.0, 1.0);shader:Default;valueA:0.35;valueB:0.25;]
+[name:woodDark;color:RGBA(0.698, 0.316, 0.194, 1.000);scale:(1.0, 1.0);shader:Default;valueA:0.35;valueB:0;]
+
+:models
+
+[name:;collection:Golf;type:bend_large;position:(1.8000, 0.4000, -3.0000);rotation:(0.0000, 90.0000, 0.0000);scale:(-1.0000, 12.9000, 1.0000);group:;locked:False;hidden:False;materials:bricks+foliage;]
+[name:;collection:Western;type:porch_floorCenter;position:(-1.4000, 1.7400, 0.0000);rotation:(90.0000, 270.0000, 0.0000);scale:(1.0000, 1.0000, 2.7000);group:;locked:False;hidden:False;materials:wood;]
+[name:;collection:Western;type:porch_floorCenter;position:(1.3000, 1.7400, -3.0000);rotation:(90.0000, 270.0000, 0.0000);scale:(1.0000, 1.0000, 2.7000);group:;locked:False;hidden:False;materials:wood;]
+[name:;collection:Western;type:porch_floorCenter;position:(1.3000, 1.7400, 0.0000);rotation:(90.0000, 270.0000, 0.0000);scale:(1.0000, 1.0000, 2.7000);group:;locked:False;hidden:False;materials:wood;]
+[name:;collection:Western;type:porch_floorCenter;position:(-3.9800, 3.0000, -1.5770);rotation:(0.0000, 0.0000, 0.0000);scale:(1.7600, 1.0000, 2.7540);group:;locked:False;hidden:False;materials:foliage;]
+[name:;collection:Western;type:porch_floorCenter;position:(-0.1515, 3.0000, -1.4819);rotation:(0.0000, 0.0000, 0.0000);scale:(6.8255, 1.0000, 3.9428);group:;locked:False;hidden:False;materials:foliage;]
+[name:;collection:Western;type:porch_floorCenter;position:(3.8950, 3.0000, -1.4738);rotation:(0.0000, 0.0000, 0.0000);scale:(1.9900, 1.0000, 2.4124);group:;locked:False;hidden:False;materials:foliage;]
+[name:;collection:Golf;type:bend_large;position:(5.2000, 3.2000, -1.0000);rotation:(0.0000, 0.0000, 0.0000);scale:(-1.0000, -2.1200, 1.0000);group:;locked:False;hidden:False;materials:bricks+foliage;]
+[name:;collection:Golf;type:side;position:(1.9000, 3.2000, 0.0000);rotation:(0.0000, 270.0000, 0.0000);scale:(-1.0000, -2.0800, -3.6001);group:;locked:False;hidden:False;materials:bricks+foliage;]
+[name:;collection:Western;type:porch_floorCenter;position:(-1.4000, 1.7400, -3.0000);rotation:(90.0000, 270.0000, 0.0000);scale:(1.0000, 1.0000, 2.7000);group:;locked:False;hidden:False;materials:wood;]
+[name:;collection:Golf;type:side;position:(-1.7000, 3.2000, 0.0000);rotation:(0.0000, 90.0000, 0.0000);scale:(1.0000, -2.0909, -3.6001);group:;locked:False;hidden:False;materials:bricks+foliage;]
+[name:;collection:Golf;type:bend_large;position:(-5.0000, 3.2000, -1.0000);rotation:(0.0000, 0.0000, 0.0000);scale:(1.0000, -2.1052, 1.0000);group:;locked:False;hidden:False;materials:bricks+foliage;]
+[name:;collection:Golf;type:bend_large;position:(-4.0000, 3.2000, -3.0000);rotation:(0.0000, 270.0000, 0.0000);scale:(1.0000, -2.0864, 1.0000);group:;locked:False;hidden:False;materials:bricks+foliage;]
+[name:;collection:Primitives;type:halfPipe_half;position:(-4.4900, 2.9865, -1.9901);rotation:(0.0000, 180.0000, 90.0000);scale:(0.4071, 1.0000, -1.0202);group:;locked:False;hidden:False;materials:foliage;]
+[name:;collection:Primitives;type:halfPipe_half;position:(-4.4900, 2.9806, -1.0000);rotation:(0.0000, 180.0000, 90.0000);scale:(0.4189, 1.0000, 1.0001);group:;locked:False;hidden:False;materials:foliage;]
+[name:;collection:Golf;type:bend_large;position:(-2.0000, 0.4000, -3.0000);rotation:(0.0000, 270.0000, 0.0000);scale:(1.0000, 12.9000, 1.0000);group:;locked:False;hidden:False;materials:bricks+foliage;]
+[name:;collection:Primitives;type:halfPipe_half;position:(4.6900, 3.0042, -1.9901);rotation:(0.0000, 180.0000, 270.0000);scale:(0.3717, 1.0000, -1.0201);group:;locked:False;hidden:False;materials:foliage;]
+[name:;collection:Primitives;type:halfPipe_half;position:(4.6900, 3.0042, -1.0000);rotation:(0.0000, 180.0000, 270.0000);scale:(0.3717, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:foliage;]
+[name:;collection:Golf;type:bend_large;position:(-2.0000, 0.4000, 0.0000);rotation:(0.0000, 90.0000, 0.0000);scale:(1.0000, 12.9000, -1.0000);group:;locked:False;hidden:False;materials:bricks+foliage;]
+[name:;collection:Golf;type:bend_large;position:(4.2000, 3.2000, -3.0000);rotation:(0.0000, 90.0000, 0.0000);scale:(-1.0000, -2.0500, 1.0000);group:;locked:False;hidden:False;materials:bricks+foliage;]
+[name:;collection:Golf;type:side;position:(-1.7000, 3.2000, -3.0000);rotation:(0.0000, 270.0000, 0.0000);scale:(1.0000, -2.0100, 3.6001);group:;locked:False;hidden:False;materials:bricks+foliage;]
+[name:;collection:Golf;type:bend_large;position:(1.8000, 0.4000, 0.0000);rotation:(0.0000, 270.0000, 0.0000);scale:(-1.0000, 12.9000, -1.0000);group:;locked:False;hidden:False;materials:bricks+foliage;]
+[name:;collection:Golf;type:side;position:(1.9000, 3.2000, -3.0000);rotation:(0.0000, 90.0000, 0.0000);scale:(-1.0000, -2.0000, 3.6001);group:;locked:False;hidden:False;materials:bricks+foliage;]
