@@ -71,3 +71,8 @@ area_radius = 7.0
 
 [node name="StaticBody" parent="." instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.16138, 7.44212 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 0.957673, 0.0305605, -0.286232, 0.255659, -0.54727, 0.796953, -0.132291, -0.836398, -0.531919, 0, 12.4733, 2.43255 )
+light_indirect_energy = 13.037
+shadow_enabled = true

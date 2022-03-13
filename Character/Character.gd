@@ -10,6 +10,7 @@ export var back = preload("res://Character/def_02.png")
 export var area_radius = 3.18
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	# https://www.youtube.com/watch?v=_lj7qDc1CZ8
 	mat.set_texture(SpatialMaterial.TEXTURE_ALBEDO, back)
 	$CollisionShape.get_shape().radius = area_radius
 	pass
